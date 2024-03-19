@@ -17,3 +17,42 @@
 //saida de dados
 // = informar se o triangulo é equilátero, escaleno ou isócele
 // = motrar a saída do programa na console
+
+// console.log("teste");
+
+const lado1 = 60 
+const lado2 = 60 
+const lado3 = 60 
+
+// console.log(trianguloIsoscele);
+
+// const triangulo = 40 && 30 && 50
+
+// console.log(triangulo);
+if (lado1 && lado2 == lado3) {
+    console.log(`Possui 3 lados iguais, é um Triângulo Equilátero`);
+} else if (lado1 == 60 && lado2 == 40 && lado3 == 60) {
+    console.log(`Possui 2 lados iguais, é um Triângulo Isoscele`);
+} else if (lado1 == 60 && lado2 == 40 && lado3 == 50) {
+    console.log(`Possui 3 lados diferentes, é um Triângulo Escaleno`);
+}
+
+
+// if (lado1 == 60 && lado2 == 60 && lado3 == 60) {
+//     console.log(`Possui 3 lados iguais, é um Triângulo Equilátero`);
+// } else if (lado1 == 60 && lado2 == 40 && lado3 == 60) {
+//     console.log(`Possui 2 lados iguais, é um Triângulo Isoscele`);
+// } else if (lado1 == 60 && lado2 == 40 && lado3 == 50) {
+//     console.log(`Possui 3 lados diferentes, é um Triângulo Escaleno`);
+// }
+
+
+
+
+
+
+
+
+
+
+
