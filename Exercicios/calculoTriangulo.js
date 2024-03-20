@@ -20,9 +20,9 @@
 
 // console.log("teste");
 
-const lado1 = 60 
-const lado2 = 60 
-const lado3 = 60 
+const lado1 = 60;
+const lado2 = 50;
+const lado3 = 40;
 
 // console.log(trianguloIsoscele);
 
@@ -31,20 +31,28 @@ const lado3 = 60
 // console.log(triangulo);
 if (lado1 && lado2 == lado3) {
     console.log(`Possui 3 lados iguais, é um Triângulo Equilátero`);
-} else if (lado1 == 60 && lado2 == 40 && lado3 == 60) {
+} else if (lado1 == lado2 && lado2 != lado3) {
     console.log(`Possui 2 lados iguais, é um Triângulo Isoscele`);
-} else if (lado1 == 60 && lado2 == 40 && lado3 == 50) {
+} else if (lado1 != lado2 && lado2 != lado3) {
     console.log(`Possui 3 lados diferentes, é um Triângulo Escaleno`);
 }
 
+// ---------------------------------------------------------------------------------
+//  CORREÇÂO
 
-// if (lado1 == 60 && lado2 == 60 && lado3 == 60) {
-//     console.log(`Possui 3 lados iguais, é um Triângulo Equilátero`);
-// } else if (lado1 == 60 && lado2 == 40 && lado3 == 60) {
-//     console.log(`Possui 2 lados iguais, é um Triângulo Isoscele`);
-// } else if (lado1 == 60 && lado2 == 40 && lado3 == 50) {
-//     console.log(`Possui 3 lados diferentes, é um Triângulo Escaleno`);
-// }
+ const ladoA = 90;
+ const ladoB = 20;
+ const ladoC = 40;
+
+ if (ladoA == ladoB && ladoB == ladoC) {
+    console.log("O Triângulo é Equilátero pois tem as 3 medidas iguais!");
+} else if (ladoA == ladoB || ladoB == ladoC || ladoA == ladoC) {
+     console.log("O Triângulo é Isoscele pois tem pelo menos 2 lados iguais!");
+    
+ } else {
+    console.log("O Triângulo é Escaleno pois possui todos os lados diferentes");
+ }
+
 
 
 

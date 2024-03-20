@@ -1,9 +1,7 @@
 // Desenvolva um programa que recebe do usuário, o placar de um jogo de futebol (os gols de cada time) e informa se o resultado foi um empate, se a vitória foi do primeiro time ou do segundo time.
 
 
-const time1 = "palmeiras"
-const time2 = "santos"
-const placar = 
+
 
 //entrada de dados
 // = informar os dois times de futebol
@@ -16,3 +14,20 @@ const placar =
 
 //saida
 // = informar o resultado do jogo de futebol
+
+const time1 = "palmeiras"
+const time2 = "santos"
+const placarTime1 = 2
+const placarTime2 = 1
+
+switch (time1) {
+    case 1:
+        console.log(``)
+        break;
+
+    default:
+        break;
+}
+
+
+

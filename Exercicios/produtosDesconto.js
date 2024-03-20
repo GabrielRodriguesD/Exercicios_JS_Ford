@@ -10,8 +10,8 @@
 
 // Dica: utilize if / else if / else
 
-const descriçãoProduto = "batata(s)"
-const quantidadeProduto = 5 //botar quantidade nos if else
+const descriçãoProduto = "batata"
+const quantidadeProduto = 3 //botar quantidade nos if else
 const precoUntitario = 4
 
 //entrada de dados
@@ -28,21 +28,36 @@ const desconto3 = 0.05 * total
 
 if (quantidadeProduto <= 5) {
     const totalPagar = total - desconto1
-    console.log(`Na compra de ${quantidadeProduto} ${descriçãoProduto} seria cobrado o valor de $ ${total}`),
-    console.log(`Sendo descontado $ ${desconto1.toFixed(2)} (2%) do valor total ficou $ ${totalPagar}`)
+    console.log(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
+    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto1.toFixed(2)}\r (2%) do valor total, logo ele sairá por: $${totalPagar}`)
 }
 else if (quantidadeProduto > 5 && quantidadeProduto <= 10) {
     const totalPagar = total - desconto2
-    console.log(`Na compra de ${quantidadeProduto} ${descriçãoProduto} seria cobrado Preço total de $ ${total}`),
-   console.log(`Sendo descontado $ ${desconto2.toFixed(2)} (3%) do valor total ficou $ ${totalPagar}`) 
+    console.log(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
+    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto2.toFixed(2)}\r (3%) do valor total, logo ele sairá por: $${totalPagar}`)
     
 }
 else if (quantidadeProduto > 10) {
     const totalPagar = total - desconto3
-    console.log(`Na compra de ${quantidadeProduto} ${descriçãoProduto} seria cobrado o valor de $ ${total}`),
-    console.log(`Sendo descontado $ ${desconto3.toFixed(2)} (5%) do valor total ficou $ ${totalPagar}`) 
-  
-
+    console.log(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
+    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto3.toFixed(2)}\r (5%) do valor total, logo ele sairá por: $${totalPagar}`)
+    
+    // if (quantidadeProduto <= 5) {
+    //     const totalPagar = total - desconto1
+    //     console.log(`Na compra de ${quantidadeProduto} ${descriçãoProduto} seria cobrado o valor de $ ${total}`),
+    //     console.log(`Sendo descontado $ ${desconto1.toFixed(2)} (2%) do valor total ficou $ ${totalPagar}`)
+    // }
+    // else if (quantidadeProduto > 5 && quantidadeProduto <= 10) {
+    //     const totalPagar = total - desconto2
+    //     console.log(`Na compra de ${quantidadeProduto} ${descriçãoProduto} seria cobrado Preço total de $ ${total}`),
+    //    console.log(`Sendo descontado $ ${desconto2.toFixed(2)} (3%) do valor total ficou $ ${totalPagar}`) 
+        
+    // }
+    // else if (quantidadeProduto > 10) {
+    //     const totalPagar = total - desconto3
+    //     console.log(`Na compra de ${quantidadeProduto} ${descriçãoProduto} seria cobrado o valor de $ ${total}`),
+    //     console.log(`Sendo descontado $ ${desconto3.toFixed(2)} (5%) do valor total ficou $ ${totalPagar}`) 
+      
 
 
 

@@ -5,15 +5,26 @@
 
 
 
-const cliente = 1
-const  funcionario = 2
-const vip = 3
+const cliente = valorCompra //tentar let
+const  funcionario = valorCompra * 0.10
+const vip = valorCompra * 0.05
 
-const pessoa = 
+// const clienteValor = valorDaCompra
+// const funcValor = valorDaCompra * 0.10
+// const vipValor = valorDaCompra * 0.05
+
+let pessoa = cliente
+let valorCompra = 50
+
+
+
 //entrada de dados
 // = determinar se o cliente é 1- cliente, 2- funcionário e 3-vip
 // = informar o total da compra 
 
+if (pessoa == cliente) {
+    console.log(`Por ser cliente, sera $ ${valorCompra} sem desconto. `);
+}
 //processamento de dados
 // = usar a estrutura switch case para determinar se é cliente, funcionário ou vip
 
@@ -21,3 +32,7 @@ const pessoa =
 // = se for cliente não haverá desconto
 // = se for funcionário terá 10% de desconto
 // = se for vip terá 5% de desconto
+
+// ------------------------------------------------------------------------------
+// Correção
+
