@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    const alcGas = 
+    window.prompt(
+    `Deseja reabastecer com: 
+    [a] alcool
+    [b] gasolina?
+    `);
+    const litrao = window.prompt(`
+    Quantos litros deseja?:
+    [c] 20 litros 
+    [d] mais de 20 litros
+    
+    `)
+
+   
+
+    switch (alcGas) {
+        case "alcool":
+
+        alert(`Teste`)
+            break;
+
+        case "gasolina":
+
+        alert(`Teste gasosa`)
+            break;
+        
+        case "c":
+        const deconto1Gas = (20 * 5.30) * 0.04
+        alert(`Teste gasosa ${deconto1Gas}`)
+            break;
+
+        case "d":
+        const deconto2Gas = 20 * 0.06
+        alert(`Teste gasosa`)
+            break;
+    
+        default:
+            break;
+    }
+    </script>
+</body>
+</html>

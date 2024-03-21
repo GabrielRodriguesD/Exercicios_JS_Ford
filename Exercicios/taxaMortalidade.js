@@ -7,6 +7,7 @@
 
 //olá!
 
+
 //entrada de dados
 // verificar o que o usuario vai querer calcular (natalidade ou mortalidade)
 // determinar o número de crianças nascidas e o número de habitantes para natalidade

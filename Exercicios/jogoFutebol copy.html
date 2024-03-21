@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol</title>
+</head>
+<body>
+    <script>
+
+    const time1 = window.prompt("informe o time 1: ");
+    const time2 = window.prompt("Informe o time 2: ");
+    const placarTime1 = window.prompt("Informe os pontos do time 1");
+    const placarTime2 = window.prompt("Informe os pontos do time 2");
+
+    if (placarTime1 > placarTime2) {
+    window.alert(`Com um placar de ${placarTime1} x ${placarTime2} o time do ${time1} Ganhou a partida!`);
+    } else if (placarTime2 > placarTime1) {
+    window.alert(`Com um placar de ${placarTime2} x ${placarTime1} o time do ${time2} Ganhou a partida!`);   
+    } else {
+    window.alert(`Com um placar de ${placarTime2} x ${placarTime1} a partida acabou em empate!`);   
+
+    }
+
+    
+    </script>
+</body>
+</html>

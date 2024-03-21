@@ -3,9 +3,11 @@
 // valor total da compra efetuada e um código que identifique se o comprador é um cliente comum (1), funcionário (2) ou vip (3).
 
 
+let cliente = valorCompra
+const pessoa = cliente
+const valorCompra = 50
 
-
-const cliente = valorCompra //tentar let
+// const cliente = valorCompra //tentar let
 const  funcionario = valorCompra * 0.10
 const vip = valorCompra * 0.05
 
@@ -13,8 +15,6 @@ const vip = valorCompra * 0.05
 // const funcValor = valorDaCompra * 0.10
 // const vipValor = valorDaCompra * 0.05
 
-let pessoa = cliente
-let valorCompra = 50
 
 
 
@@ -22,8 +22,8 @@ let valorCompra = 50
 // = determinar se o cliente é 1- cliente, 2- funcionário e 3-vip
 // = informar o total da compra 
 
-if (pessoa == cliente) {
-    console.log(`Por ser cliente, sera $ ${valorCompra} sem desconto. `);
+if (pessoa === cliente) {
+    console.log(`Por ser cliente, sera $${valorCompra} sem desconto. `);
 }
 //processamento de dados
 // = usar a estrutura switch case para determinar se é cliente, funcionário ou vip

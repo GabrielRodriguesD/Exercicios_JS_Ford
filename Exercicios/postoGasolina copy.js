@@ -16,7 +16,6 @@
 
 // Dica: utilize switch case, operadores lógicos e relacionais e estrutura de condição para otimizar o algorítimo.
 
-
 //entrada de dados
 // = selecionar se deseja abastecer com alcool ou com gasolina;
 // = selecionar a quantidade de litros que o usuário deseja;
