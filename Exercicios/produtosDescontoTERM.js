@@ -29,18 +29,18 @@ const desconto3 = 0.05 * total
 if (quantidadeProduto <= 5) {
     const totalPagar = total - desconto1
     console.log(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
-    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto1.toFixed(2)}\r (2%) do valor total, logo ele sairá por: $${totalPagar}`)
+    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto1.toFixed(2)}\r (2%) do valor total, logo ele sairá por: $${totalPagar.toFixed(2)}`)
 }
 else if (quantidadeProduto > 5 && quantidadeProduto <= 10) {
     const totalPagar = total - desconto2
     console.log(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
-    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto2.toFixed(2)}\r (3%) do valor total, logo ele sairá por: $${totalPagar}`)
+    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto2.toFixed(2)}\r (3%) do valor total, logo ele sairá por: $${totalPagar.toFixed(2)}`)
     
 }
 else if (quantidadeProduto > 10) {
     const totalPagar = total - desconto3
     console.log(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
-    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto3.toFixed(2)}\r (5%) do valor total, logo ele sairá por: $${totalPagar}`)
+    console.log(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto3.toFixed(2)}\r (5%) do valor total, logo ele sairá por: $${totalPagar.toFixed(2)}`)
     
     // if (quantidadeProduto <= 5) {
     //     const totalPagar = total - desconto1

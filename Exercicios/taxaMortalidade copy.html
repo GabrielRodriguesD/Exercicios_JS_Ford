@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <script>    
-    
-        
+    <script>
+
+        const habitantes = 103000
+        const criancasNasc = 20000
+
+        const obitos = 70000
+
+        const taxaDe = prompt(`
+     Deseja calcular a taxa de:
+     [A] Natalidade
+     [B] Mortalidade
+        `)
+
+        switch (taxaDe.toLowerCase()) {
+            case "a":
+                const natalidade = (criancasNasc * 1000) / habitantes
+                alert(`A taxa de natalidade é de: ${natalidade.toFixed(3)}`)
+                break;
+
+            case "b":
+                const mortalidade = (obitos * 1000) / habitantes
+                alert(`A taxa de mortalidade é de: ${mortalidade.toFixed(3)}`)
+                break;
+
+            default:
+
+                alert("Opção não disponivel, por favor tentar novamente")
+                break;
+        }
+
 
     </script>
 </body>
+
 </html>

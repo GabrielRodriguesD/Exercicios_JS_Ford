@@ -14,12 +14,12 @@
     [A] alcool
     [G] gasolina?
     `);
+
     const litrao = window.prompt(`
     Quantos litros deseja?:
-    [c] 20 litros 
-    [d] mais de 20 litros
-    
-    `)
+    [1] 20 litros 
+    [2] mais de 20 litros
+    `);
 
    
 
@@ -33,20 +33,28 @@
 
         alert(`Teste gasosa`)
             break;
-        
-        case "c":
-        const deconto1Gas = (20 * 5.30) * 0.04
-        alert(`Teste gasosa ${deconto1Gas}`)
-            break;
 
-        case "d":
-        const deconto2Gas = 20 * 0.06
-        alert(`Teste gasosa`)
+    }
+
+    
+
+    switch (litrao) {
+        case =< 20:
+        const precoGas4 = litrao * 5.30
+        const deconto4Gas = precoGas4 * 0.04
+        alert(`Com o desconto de $${deconto4Gas} (4%) o preço ficara ${precoGas4 - deconto4Gas}`)
+            break;
+            
+        case 1:
+        const precoGas6 = litrao * 5.30
+        const deconto6Gas = precoGas6 * 0.06
+        alert(`Com o desconto de $${deconto6Gas} (4%) o preço ficara ${precoGas6 - deconto6Gas}`)
             break;
     
         default:
             break;
     }
+
     </script>
 </body>
 </html>

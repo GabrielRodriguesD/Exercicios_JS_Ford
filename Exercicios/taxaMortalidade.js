@@ -7,6 +7,19 @@
 
 //olá!
 
+const habitantes = 103000
+let criancasNasc = 20000
+
+let obitos = 70000
+
+switch () {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
 
 //entrada de dados
 // verificar o que o usuario vai querer calcular (natalidade ou mortalidade)

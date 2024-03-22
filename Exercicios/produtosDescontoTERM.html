@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    const descriçãoProduto = prompt("Informe o produto")
+    const quantidadeProduto = Number(prompt ("Informe a quantidade"));//botar quantidade nos if else
+    const precoUntitario = parseFloat(prompt("Informe o preço Unitario"));
+
+    const total = quantidadeProduto * precoUntitario
+
+    const desconto1 = 0.02 * total
+    const desconto2 = 0.03 * total
+    const desconto3 = 0.05 * total
+
+    if (quantidadeProduto <= 5) {
+    const totalPagar = total - desconto1
+    alert(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
+    alert(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto1.toFixed(2)} (2%) do valor total, logo ele sairá por: $${totalPagar.toFixed(2)}`)
+    }
+    else if (quantidadeProduto > 5 && quantidadeProduto <= 10) {
+    const totalPagar = total - desconto2
+    alert(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
+    alert(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto2.toFixed(2)} (3%) do valor total, logo ele sairá por: $${totalPagar.toFixed(2)}`)
+    
+    }
+    else if (quantidadeProduto > 10) {
+    const totalPagar = total - desconto3
+    alert(`O valor unitario da ${descriçãoProduto} é de $${precoUntitario}`),
+    alert(`Mas na compra de ${quantidadeProduto} ${descriçãoProduto}(s) o preço total de: $${total} serão descontados em $${desconto3.toFixed(2)} (5%) do valor total, logo ele sairá por: $${totalPagar.toFixed(2)}`)
+    }
+
+
+    //---------------------------- CORREÇÂO ---------------------------------------
+
+    
+    </script>
+</body>
+</html>
