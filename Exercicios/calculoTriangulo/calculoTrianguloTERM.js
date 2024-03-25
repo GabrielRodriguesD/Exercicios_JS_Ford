@@ -41,18 +41,18 @@ if (lado1 && lado2 == lado3) {
 //  CORREÇÂO Guilherme
 
 
-const ladoA = 90;
-const ladoB = 20;
-const ladoC = 40;
+// const ladoA = 90;
+// const ladoB = 20;
+// const ladoC = 40;
 
-if (ladoA == ladoB && ladoB == ladoC) {
-    console.log("O Triângulo é Equilátero pois tem as 3 medidas iguais!");
-} else if (ladoA == ladoB || ladoB == ladoC || ladoA == ladoC) {
-    console.log("O Triângulo é Isoscele pois tem pelo menos 2 lados iguais!");
+// if (ladoA == ladoB && ladoB == ladoC) {
+//     console.log("O Triângulo é Equilátero pois tem as 3 medidas iguais!");
+// } else if (ladoA == ladoB || ladoB == ladoC || ladoA == ladoC) {
+//     console.log("O Triângulo é Isoscele pois tem pelo menos 2 lados iguais!");
     
-} else {
-    console.log("O Triângulo é Escaleno pois possui todos os lados diferentes");
-}
+// } else {
+//     console.log("O Triângulo é Escaleno pois possui todos os lados diferentes");
+// }
 
 //  CORREÇÂO Joao
 

@@ -12,12 +12,22 @@ let criancasNasc = 20000
 
 let obitos = 70000
 
-switch () {
-    case value:
-        
+const taxaDe = "B"
+
+switch (taxaDe.toLowerCase()) {
+    case "a":
+        const natalidade = (criancasNasc * 1000) / habitantes
+        console.log(`A taxa de natalidade é de: ${natalidade.toFixed(3)}`)
+        break;
+
+    case "b":
+        const mortalidade = (obitos * 1000) / habitantes
+        console.log(`A taxa de mortalidade é de: ${mortalidade.toFixed(3)}`)
         break;
 
     default:
+
+        console.log("Opção não disponivel, por favor tentar novamente")
         break;
 }
 

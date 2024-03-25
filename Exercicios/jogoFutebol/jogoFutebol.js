@@ -31,13 +31,11 @@ if (placarTime1 > placarTime2) {
 
 //Adendos João
 
-const placar = "3x2";
-const [golsTime1, golsTime2] = placar.split("x");
+// const placar = "3x2";
+// const [golsTime1, golsTime2] = placar.split("x");
 
-console.log(`COR - ${golsTime1} x ${golsTime2} - PAL`);
+// console.log(`COR - ${golsTime1} x ${golsTime2} - PAL`);
 
-// não tem a ver com o futebol, é só outro exemplo
-const [nome, sobrenome] = ""
 
 
 
